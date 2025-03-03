@@ -12,7 +12,6 @@ class Blitz(QtWidgets.QMainWindow):
 
         self.textbox.setFont(QtGui.QFont('Consolas',11))
 
-        self.count_ren = True
         self.scroll = QScrollArea()
         self.scroll.setWidgetResizable(True)
         self.scroll.setWidget(self.textbox)
